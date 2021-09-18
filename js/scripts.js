@@ -81,9 +81,7 @@ $(document).ready(function(){
             pizza.crust = fdata.get('crust')
             pizza.size = fdata.get('size')
             const price = pizza.calculatePrice()
-            alert("Your price is "+price+". Thanks for shopping with us!!!")
-
-            
+            alert("Your price is "+price+". Thanks for shopping with us!!!") 
         })
 
     })
@@ -99,10 +97,7 @@ $(document).ready(function(){
             pizza.size = fdata.get('size')
             const price = pizza.calculatePrice()
             alert("Your price is "+price+". Thanks for shopping with us!!!")
-
-            
         })
-
     })
     $('#dish3').click(function(){
         const name = $(this).parents().siblings("h3").html()
@@ -116,11 +111,6 @@ $(document).ready(function(){
             pizza.size = fdata.get('size')
             const price = pizza.calculatePrice()
             alert("Your price is "+price+". Thanks for shopping with us!!!")
-
-            
         })
-
     })
-
-    
 })
