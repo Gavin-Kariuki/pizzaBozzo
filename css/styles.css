@@ -35,3 +35,7 @@ body{
     cursor: pointer;
     display: none;
 }
+
+.fa-pizza-slice:hover{
+    color: #ff04df;
+}
