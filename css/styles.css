@@ -65,3 +65,54 @@ body{
     color: #ff04df;
     text-decoration: none;
 }
+
+#home{
+    background: linear-gradient(0deg, rgba(0,0,0,.6),rgba(0,0,0,.6));
+    position: relative;
+}
+
+.content h1{
+    font-size: 5rem;
+    text-shadow: .1rem .1rem .3rem #333;   
+}
+
+.content h2{
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .3rem #333;
+}
+
+.content p{
+    font-size: 1.6rem;
+    color: #ccc;
+}
+
+.content button{
+    height: 4rem;
+    width: 14rem;
+    outline: none;
+    border: none;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.content button::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    background: #ff04df;
+    height: 100%;
+    width: 0%;
+    transition: .2s;
+    z-index: -1;
+}
+
+.content button:hover::before{
+    width: 100%;
+}
