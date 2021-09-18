@@ -14,4 +14,8 @@ $(document).ready(function(){
         $('nav').removeClass('nav-toggle');
     })
     // font awesome functions //
+
+    // css //
+    $('.pizza').css('color', '#ff04df');
+    // css //
 })
