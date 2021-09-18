@@ -36,4 +36,26 @@ $(document).ready(function(){
         $('.img2').css('display', 'none');
     })
     // function for dots //
+
+    // checkout validation //
+    const calc = () => {
+        const toppings = parseInt($("#toppings").children("option:selected").attr("value"))
+        const crust = parseInt($("#crust").children("option:selected").attr("value"))
+        const size = parseInt($("#size").children("option:selected").attr("value"))
+        const cost = crust + toppings + size
+        $("#cost").html("ksh "+cost.toString())
+    }
+ 
+    $("#toppings").change(function(){
+        calc()
+    })
+    $("#crust").change(function(){
+        calc()
+    })
+    $("#size").change(function(){
+        calc()
+    })
+    // checkout validation // // this function isn't necessary as i will you use another one //
+    // this is here for reference //
+
 })
