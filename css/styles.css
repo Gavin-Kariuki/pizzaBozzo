@@ -116,3 +116,7 @@ body{
 .content button:hover::before{
     width: 100%;
 }
+
+.fa-times{
+    transform: skew(-180deg) rotate(-180deg);
+}
