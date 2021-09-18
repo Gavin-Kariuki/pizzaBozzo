@@ -50,3 +50,7 @@ body{
     justify-content: space-around;
     list-style: none;
 }
+
+#listVitu{
+    margin-right: 4rem;
+}
