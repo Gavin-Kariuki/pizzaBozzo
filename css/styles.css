@@ -242,3 +242,93 @@ body{
 .btnCard:hover::before{
     width: 100%;
 }
+
+.aboutUs{
+    margin-top: 12rem;
+}
+
+.paraAbout{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#dish{
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.box{
+    height: 20rem;
+    width: 25rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 .5rem #333;
+}
+
+#boxImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info{
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 51, 51, .6);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #fff;
+}
+
+.info h3{
+    font-size: 3rem;
+}
+.info p{
+    font-size: 1.3rem;
+}
+.info button{
+    height: 4rem;
+    width: 14rem;
+    outline: none;
+    border: none;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.info button::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    background: #ff04df;
+    height: 100%;
+    width: 0%;
+    transition: .2s;
+    z-index: -1;
+}
+
+.info button:hover::before{
+    width: 100%;
+}
