@@ -366,3 +366,104 @@ form{
     width: 90%;
     font-size: 2rem;
 }
+
+#messageArea{
+    padding: 1rem;
+    resize: none;
+    height: 20rem;
+}
+
+
+
+#inputBtn{
+    height: 4rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    margin-left: 4%;
+    background: #333;
+    color: #fff;
+}
+
+#inputBtn:hover{
+    color: #333;
+    background: #ff04df;
+}
+
+#footer{
+    background: #333;
+}
+
+#footer h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+#footer span{
+    color: #ff04df;
+    font-weight: bolder;
+}
+
+.logoFooter{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+
+.footer-links{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem 0;
+}
+
+.footer-links h3{
+    font-size: 2.2rem;
+    color: #ff04df;
+}
+
+.footer-links a{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.newsLetter h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #fff;
+
+}
+
+#newsInput{
+    border: .2rem solid #fff;
+    outline: none;
+    background: none;
+    height: 4rem;
+    width: 22rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#submitNews{
+    height: 4rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem 0;
+    margin-top: 2rem;
+    background: #333;
+    color: #fff;
+}
+
+#submitNews:hover{
+    color: #333;
+    background: #ff04df;
+}
+
+#target{
+    height: auto;
+}
+
