@@ -159,3 +159,86 @@ body{
 .dots:hover{
     background: #ff04df;
 }
+
+#special{
+    background: #000;
+    min-height: 100vh;
+}
+
+
+.kichwaSpecial{
+    color: #ff04df;
+    font-size: 4rem;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.paraSpecial{
+    color: #ccc;
+    font-size: 2rem;
+
+}
+
+.card-container{
+    width: 95%;
+    margin: 7rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 40rem;
+    width: 30rem;
+    background: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(.9);
+}
+
+#pizzaCard{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#paraPizza{
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+.btnCard{
+    height: 4rem;
+    width: 14rem;
+    outline: none;
+    border: none;
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btnCard::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    background: #ff04df;
+    height: 100%;
+    width: 0%;
+    transition: .2s;
+    z-index: -1;
+}
+
+.btnCard:hover::before{
+    width: 100%;
+}
