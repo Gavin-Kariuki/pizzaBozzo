@@ -43,3 +43,10 @@ body{
 #logoPizza{
     height: 7rem;
 }
+
+#navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
