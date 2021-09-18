@@ -39,3 +39,7 @@ body{
 .fa-pizza-slice:hover{
     color: #ff04df;
 }
+
+#logoPizza{
+    height: 7rem;
+}
