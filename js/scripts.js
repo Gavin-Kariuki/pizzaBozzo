@@ -18,4 +18,22 @@ $(document).ready(function(){
     // css //
     $('.pizza').css('color', '#ff04df');
     // css //
+    
+    // function for dots //
+    $('.dot1').click(function(){
+        $('.img1').css('display', 'block');
+        $('.img2').css('display', 'none');
+        $('.img3').css('display', 'none');
+    })
+    $('.dot2').click(function(){
+        $('.img2').css('display', 'block');
+        $('.img1').css('display', 'none');
+        $('.img3').css('display', 'none');
+    })
+    $('.dot3').click(function(){
+        $('.img3').css('display', 'block');
+        $('.img1').css('display', 'none');
+        $('.img2').css('display', 'none');
+    })
+    // function for dots //
 })
