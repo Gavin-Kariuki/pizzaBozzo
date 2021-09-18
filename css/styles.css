@@ -120,3 +120,42 @@ body{
 .fa-times{
     transform: skew(-180deg) rotate(-180deg);
 }
+
+.myContainer{
+    position: absolute;
+    top: 0; left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.images{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.img1{
+    display: block;
+}
+
+.controls{
+    position: absolute;
+    bottom: 14%; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dots{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    background: #fff;
+    margin: 0 1rem;
+}
+
+.dots:hover{
+    background: #ff04df;
+}
