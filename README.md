@@ -20,16 +20,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[
-
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/Gavin-Kariuki/pizzaBozzo">
-    <img src="img/238-2388165_tumblr-pizza-png-letras-de-pizza-png.png" alt="Logo">
+    <img src="img/238-2388165_tumblr-pizza-png-letras-de-pizza-png.png" alt="Logo" width="200px">
   </a>
 
   <h3 align="center">Pizza Bozzo</h3>
