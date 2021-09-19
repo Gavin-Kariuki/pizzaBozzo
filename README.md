@@ -21,7 +21,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [
-[![MIT License][license-shield]][license-url]
+
 
 
 
@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Gavin-Kariuki/pizzaBozzo">
-    <img src="img/238-2388165_tumblr-pizza-png-letras-de-pizza-png.png" alt="Logo" width="80" height="80">
+    <img src="img/238-2388165_tumblr-pizza-png-letras-de-pizza-png.png" alt="Logo">
   </a>
 
   <h3 align="center">Pizza Bozzo</h3>
