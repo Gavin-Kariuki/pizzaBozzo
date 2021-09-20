@@ -112,6 +112,43 @@
     <!-- about section ends -->
 
     <!-- My Modal start -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Please choose your preference</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="target">
+                    <label>Choose your toppings</label>
+                    <select id="toppings" name="toppings">
+                        <option value=100>sausages </option>
+                        <option value=50>pineapples</option>
+                        <option value=200>chicken</option>
+                    </select>
+                    <label>Choose your crust</label>
+                    <select id="crust" name="crust">
+                        <option value=300>deep dish</option>
+                        <option value=100>thin</option>
+                        <option value=500>stuffed crust</option>
+                    </select>
+                    <label>Choose your size</label>
+                    <select id="size" name="size"> 
+                        <option value=500>small</option>
+                        <option value=750>medium</option>
+                        <option value=1000>large</option>
+                    </select>
+                </form>
+                <div id="cost"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" id="checkout" class="btn btn-primary">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- My Modal end -->
 
