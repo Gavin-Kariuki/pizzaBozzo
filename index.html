@@ -203,13 +203,13 @@
             <h1>contact us</h1>
         </div>
         <div class="row justify-content-center">
-            <form action="" class="col-md-7">
+            <form action="" id="target1" class="col-md-7">
                 <div class="inputBox">
-                    <input type="text" class="inputBuda" required>
+                    <input type="text" id="name" class="inputBuda" required>
                     <h3 class="headingKichwa">Enter your name...</h3>
                 </div>
                 <div class="inputBox">
-                    <input type="email" class="inputBuda" required>
+                    <input type="email" id="email" class="inputBuda" required>
                     <h3 class="headingKichwa">email</h3>
                 </div>
                 <div class="inputBox">
@@ -240,7 +240,7 @@
             </div>
             <div class="col-md-4 text-center text-md-left newsLetter">
                 <h2>newsletter</h2>
-                <input id="newsInput" type="text"><br>
+                <input id="newsInput" type="text" required><br>
                 <input type="submit" class="btnCard" id="submitNews" value="subscribe">
             </div>
         </div>
@@ -266,7 +266,7 @@ $(document).ready(function(){
     // font awesome functions //
 
     // css //
-    $('.pizza').css('color', 'blue');
+    $('.pizza').css('color', '#ff04df');
     // css //
     
     // function for dots //
@@ -363,6 +363,29 @@ $(document).ready(function(){
             alert("Your price is "+price+". Thanks for shopping with us!!!")
         })
     })
+    // js function for validation // 
+    $('#target1').submit(function(event){
+        event.preventDefault();
+        var name = $('input#name').val();
+        var email = $('input#email').val();
+        var message = $('textarea#messageArea').val();
+        if ($('input#name').val() && $('input#email').val()){
+            alert (name + ", we have received your message. Thank your for reaching to us.");                
+        }
+        else {
+            alert('Please enter your name and email please!');
+        }
+    })
+    // js function for validation //
+    // js function for newsletter //
+    $('#newsLetter').submit(function(event){
+        event.preventDefault();
+        var input = $('input#newsInput').val();
+        if ($('input#newsInput').val()){
+            alert ("we have received your email. Thank you!")
+        }
+    })
+    // js function for newsletter //
 })
     </script>
 
